@@ -1,0 +1,63 @@
+.PostContent {
+  .container {
+    padding: 20px;
+    box-shadow: -8px -3px 7px -3px rgba(175, 175, 175, 0.75);
+    -webkit-box-shadow: -8px -3px 7px -3px rgba(175, 175, 175, 0.75);
+    -moz-box-shadow: -8px -3px 7px -3px rgba(175, 175, 175, 0.75);
+    margin: 5px;
+    .user {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+
+      .userInfo {
+        display: flex;
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+
+          object-fit: cover;
+        }
+        .Details {
+          padding: 5px;
+          display: flex;
+          flex-direction: column;
+          .name {
+            font-weight: bold;
+          }
+          .date {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .content {
+      p {
+        padding: 10px;
+      }
+      img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+        margin-top: 20px;
+      }
+    }
+    .Info {
+      display: flex;
+      gap: 20px;
+      padding: 10px;
+
+      align-items: center;
+
+      .items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+      }
+    }
+  }
+}

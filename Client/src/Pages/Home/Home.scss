@@ -1,0 +1,11 @@
+@import "../../style.scss";
+.home {
+  background-color: rgb(246, 246, 246);
+  padding: 20px 70px;
+  @include mobile {
+    padding: 10px;
+  }
+  @include tablet {
+        padding: 10px;
+  }
+}
